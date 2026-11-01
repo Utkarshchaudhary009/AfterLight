@@ -6,9 +6,17 @@ Afterlight is a short-fiction entertainment platform built around original, AI-a
 
 The central product idea is simple: **make every visit feel worth the reader's time, and give them a genuine reason to return.** Retention should come from story quality, relevance, and a satisfying experience—not manipulative interface patterns.
 
+## Try the UI prototype
+
+The first responsive UI mockup is in [prototype](prototype/).
+
+It includes Home, Discover, Story Preview, Reader, Completion, and Library screens. Open [prototype/index.html](prototype/index.html) in a browser, or follow the instructions in [prototype/README.md](prototype/README.md).
+
+The next-story recommendation is currently a local placeholder. The planned model-backed integration is described in the prototype README; no AI provider is connected yet.
+
 ## Product foundation
 
-The product direction is organised into seven areas. The detailed notes and decisions are in [`docs/PRODUCT_FOUNDATION.md`](docs/PRODUCT_FOUNDATION.md).
+The product direction is organised into seven areas. The detailed notes and decisions are in [docs/PRODUCT_FOUNDATION.md](docs/PRODUCT_FOUNDATION.md).
 
 1. **Core experience** — Help someone find and finish a great story in 10–15 minutes.
 2. **Visual identity** — Make Afterlight feel atmospheric, literary, cinematic, and premium.
@@ -35,7 +43,7 @@ The product direction is organised into seven areas. The detailed notes and deci
 ## Suggested first validation steps
 
 1. Interview a small group of likely readers about when, why, and where they read short fiction.
-2. Prototype the home, story preview, reading, and completion screens.
+2. Test the UI prototype with readers and observe where they hesitate or get confused.
 3. Test a small curated collection of stories across a few genres before building large-scale generation.
 4. Measure story starts, completion, reader satisfaction, and voluntary return visits.
 5. Test willingness to pay and acceptable ad placements before committing to the monetisation design.
@@ -43,3 +51,4 @@ The product direction is organised into seven areas. The detailed notes and deci
 ## Documentation
 
 - [Product foundation — all seven strategic areas](docs/PRODUCT_FOUNDATION.md)
+- [UI prototype and run instructions](prototype/README.md)

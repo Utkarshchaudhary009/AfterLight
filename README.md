@@ -26,6 +26,12 @@ The product direction is organised into seven areas. The detailed notes and deci
 6. **Product metrics** — Measure whether readers discover, enjoy, finish, and return to stories—not just how long they keep the app open.
 7. **Differentiation** — Treat AI as the production engine; the product users experience is a consistently entertaining fiction platform.
 
+## Development roadmap
+
+The implementation roadmap is in [plan.md](plan.md). It breaks development into **10 phases**, from architecture and app foundation through authentication, content, reading, offline sync, privacy-conscious analytics, recommendations, and beta launch.
+
+The roadmap is the sequencing source of truth. Each phase has deliverables and exit criteria; do not mark work complete until those criteria pass.
+
 ## Product principles
 
 - **Story first.** A beautiful interface cannot rescue weak stories.
@@ -38,17 +44,18 @@ The product direction is organised into seven areas. The detailed notes and deci
 
 ## Current status
 
-**Stage:** Product concept / pre-MVP. The ideas in the product foundation are hypotheses to validate with readers, not proven product decisions.
+**Stage:** Product concept / pre-MVP. The ideas in the product foundation are hypotheses to validate with readers, not proven product decisions. The responsive UI prototype is available; the production application is not yet implemented.
 
 ## Suggested first validation steps
 
 1. Interview a small group of likely readers about when, why, and where they read short fiction.
 2. Test the UI prototype with readers and observe where they hesitate or get confused.
 3. Test a small curated collection of stories across a few genres before building large-scale generation.
-4. Measure story starts, completion, reader satisfaction, and voluntary return visits.
+4. Measure story starts, completions, satisfaction, and voluntary return visits.
 5. Test willingness to pay and acceptable ad placements before committing to the monetisation design.
 
 ## Documentation
 
+- [10-phase development roadmap](plan.md)
 - [Product foundation — all seven strategic areas](docs/PRODUCT_FOUNDATION.md)
 - [UI prototype and run instructions](prototype/README.md)

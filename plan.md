@@ -677,7 +677,7 @@ Use the official documentation when implementing; verify the current SDK/API ins
 
 | Phase | Status |
 | --- | --- |
-| 1. Product specification and technical foundation | Not started |
+| 1. Product specification and technical foundation | In progress |
 | 2. Application foundation, design system and PWA shell | Not started |
 | 3. Supabase data model, migrations and security | Not started |
 | 4. Clerk authentication and account lifecycle | Not started |
